@@ -1,0 +1,42 @@
+.rectangle {
+  width: 280px;
+  height: 430px;
+  background-color: white;
+  margin: auto;
+  margin-top: 180px;
+  border-radius: 20px;
+  position: relative;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+}
+.qr-code {
+  width: 255px;
+  height: 235px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  border-radius: 10px;
+}
+
+.head-text {
+  font-size: 20px;
+  position: absolute;
+  bottom: 90px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  padding: 0 15px 0 15px;
+}
+
+.sub-text {
+  font-size: 15px;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  padding: 0 15px 0 15px;
+  font-weight: 400;
+  opacity: 60%;
+}
