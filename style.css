@@ -40,3 +40,8 @@ body {
   font-weight: 400;
   opacity: 60%;
 }
+
+.attribution {
+  text-align: center;
+  margin-top: 10px;
+}
